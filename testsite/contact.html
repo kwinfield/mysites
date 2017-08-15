@@ -1,0 +1,124 @@
+<?php
+if(empty($_POST) === false){
+	echo 'Submitted';
+
+}
+?>
+
+
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Keith Winfield - Portfolio</title>
+	<link rel="stylesheet" href="https://bootswatch.com/cosmo/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="parallax.js"></script>
+	<script type="text/javascript">
+			
+			$(function(){
+				setTimeout(function(){
+					$('.fly-in-text, .mainaboutpic, .aboutbody').removeClass('hidden');
+				},500);
+			})();
+	</script>
+	<script type="text/javascript">
+		$(function(){
+			$('.menuicon').click(function(){
+			$('header nav ul').toggleClass('open');
+		
+		});	
+		});
+	</script>
+<link href="testsite.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<header id="header">
+	<div>
+		<h1><a href="index.html">KW</a></h1>
+		</div>
+	<div id="smallnav">
+	    <nav>
+			<a class="menuicon"></a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a href="#">Contact</a></li>
+		</ul>
+		
+		</nav>
+	</div>
+	</header>
+	<div class="fly-in-text hidden">		
+		<ul>
+			<li>C</li>
+			<li>o</li>
+			<li>n</li>
+			<li>t</li>
+			<li>a</li>
+			<li>c</li>
+			<li>t</li>
+		</ul>
+		
+		
+	</div>
+	<div class="aboutbody hidden">
+		<div style="margin: 200px auto">
+			
+			<form action="" method="post">
+		<p>
+			<label for="firstName">First Name:</label><br>
+			<input type="text" name="firstName" id="firstName">
+		</p>
+			<p>
+			<label for="lastName">Last Name:</label><br>
+			<input type="text" name="lastName" id="lastName">
+		</p>
+		<p>
+			<label for="email">E-mail:</label><br>
+			<input type="text" name="email" id="email">
+		</p>
+		<p>
+			<label for="message">Leave a Message:</label><br>
+			<textarea name="message" id="message"></textarea>
+		</p>
+		<p>
+			<input type="submit" id="submit" value="Send">	
+				</p>
+			</form>
+		</div>
+	
+	
+		
+	
+		
+			
+	<script type="text/javascript">
+		$(function(){
+			$('.menuicon').click(function(){
+			$('header nav ul').toggleClass('open');
+		
+		});	
+		});
+			
+		$(function(){
+				setTimeout(function(){
+					$('.fly-in-text, .mainaboutpic, .aboutbody').removeClass('hidden');
+				},500);
+			})();
+	</script>	
+			
+		
+	<footer>
+		<p>Contact: <a href="#">keith.r.winfield@gmail.com</a> / 202.674.1031</p>
+		
+		
+		</footer>
+	</div>
+	
+
+</body>
+	
+</html>
